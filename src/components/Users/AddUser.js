@@ -10,8 +10,6 @@ const AddUser = (props) => {
   const nameInputRef = useRef();
   const ageInputRef = useRef();
 
-  const [enteredUsername, setEnteredUsername] = useState('');
-  const [enteredAge, setEnteredAge] = useState('');
   const [error, setError] = useState();
 
   const addUserHandler = (event) => {
